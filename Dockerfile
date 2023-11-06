@@ -1,4 +1,5 @@
 FROM gradle:jdk17-alpine
+
 ADD / /
 WORKDIR /
 RUN gradle shadow
